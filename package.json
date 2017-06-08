@@ -1,0 +1,28 @@
+{
+  "name": "node-smartqq",
+  "version": "1.0.0",
+  "description": "SmartQQ Api based on js",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "baidu",
+    "tongji",
+    "reporter",
+    "DataApi"
+  ],
+  "author": "luventa (@outlook.com)",
+  "license": "MIT",
+  "dependencies": {
+    "eventemitter3": "^2.0.3",
+    "fetch-cookie": "^0.6.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "node-fetch": "^1.7.1",
+    "tough-cookie": "^2.3.2"
+  }
+}
