@@ -50,9 +50,10 @@
     "referer": "http://s.web2.qq.com/proxy.html?v=20130916001&callback=1&id=1"
   },
   "SEND_MESSAGE_TO_DISCUSS": {
-    "method": "GET",
+    "method": "POST",
     "url": "http://d1.web2.qq.com/channel/send_discu_msg2",
-    "referer": "http://d1.web2.qq.com/proxy.html?v=20151105001&callback=1&id=2"
+    "referer": "http://d1.web2.qq.com/proxy.html?v=20151105001&callback=1&id=2",
+    "origin": "http://d1.web2.qq.com"
   },
   "GET_ACCOUNT_INFO": {
     "method": "GET",
