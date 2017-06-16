@@ -30,9 +30,10 @@
     "referer": "http://d1.web2.qq.com/proxy.html?v=20151105001&callback=1&id=2"
   },
   "SEND_MESSAGE_TO_GROUP": {
-    "method": "GET",
+    "method": "POST",
     "url": "http://d1.web2.qq.com/channel/send_qun_msg2",
-    "referer": "http://d1.web2.qq.com/proxy.html?v=20151105001&callback=1&id=2"
+    "referer": "http://d1.web2.qq.com/proxy.html?v=20151105001&callback=1&id=2",
+    "origin": "http://d1.web2.qq.com"
   },
   "GET_FRIEND_LIST": {
     "method": "GET",
@@ -40,9 +41,10 @@
     "referer": "http://s.web2.qq.com/proxy.html?v=20130916001&callback=1&id=1"
   },
   "SEND_MESSAGE_TO_FRIEND": {
-    "method": "GET",
+    "method": "POST",
     "url": "http://d1.web2.qq.com/channel/send_buddy_msg2",
-    "referer": "http://d1.web2.qq.com/proxy.html?v=20151105001&callback=1&id=2"
+    "referer": "http://d1.web2.qq.com/proxy.html?v=20151105001&callback=1&id=2",
+    "origin": "http://d1.web2.qq.com"
   },
   "GET_DISCUSS_LIST": {
     "method": "GET",
@@ -76,7 +78,6 @@
     "referer": "http://s.web2.qq.com/proxy.html?v=20130916001&callback=1&id=1"
   },
   "GET_QQ_BY_ID": {
-    "method": "GET",
     "url": "http://s.web2.qq.com/api/get_friend_uin2?tuin={0}&type=1&vfwebqq={1}&t=0.1",
     "referer": "http://s.web2.qq.com/proxy.html?v=20130916001&callback=1&id=1"
   },
@@ -86,7 +87,6 @@
     "referer": "http://d1.web2.qq.com/proxy.html?v=20151105001&callback=1&id=2"
   },
   "GET_FRIEND_INFO": {
-    "method": "GET",
     "url": "http://s.web2.qq.com/api/get_friend_info2?tuin={0}&vfwebqq={1}&clientid=53999199&psessionid={2}&t=0.1",
     "referer": "http://s.web2.qq.com/proxy.html?v=20130916001&callback=1&id=1"
   }

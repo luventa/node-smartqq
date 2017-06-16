@@ -1,19 +1,15 @@
 {
   "name": "node-smartqq",
-  "version": "1.0.0",
-  "description": "SmartQQ Api based on js",
+  "version": "1.0.1",
+  "description": "SmartQQ Api based on Node.js 7.6+",
   "main": "index.js",
   "directories": {
     "doc": "doc"
   },
-  "scripts": {
-    "start": "node index.js"
-  },
   "keywords": [
-    "baidu",
-    "tongji",
-    "reporter",
-    "DataApi"
+    "SmartQQ",
+    "WebQQ",
+    "node-smartqq"
   ],
   "author": "luventa (@outlook.com)",
   "license": "MIT",
